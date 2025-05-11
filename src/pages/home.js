@@ -1,9 +1,10 @@
+import { Link } from "react-router-dom";
 
 export default function home() {
     return (
         <>
-            <div className="text-yellow-500">Nope</div>
-            <p className="bob">this is home</p>
+            <p className="welcome">Happy Mother's Day!</p>
+            <Link to={"/photos"}>Photos</Link>
         </>
         
         
