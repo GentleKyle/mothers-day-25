@@ -11,7 +11,7 @@ export default function home() {
             <Link to={"/happy"} className="link">
                 Okay...
             </Link>
-            <p className="ps">P.S. Sorry you had to see that.</p>
+            <p className="ps">P.S. Sorry you had to see that, but needed to be sure. Have a nice drink.</p>
         </div>
 
 

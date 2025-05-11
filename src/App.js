@@ -9,6 +9,7 @@ import Reject from './pages/reject';
 import Photos from './pages/photos';
 import Q4 from './pages/q4';
 import Happy from './pages/happy';
+import Allie from './pages/allie';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Route path='/home' element={<Home />} />
       <Route path='/happy' element={<Happy />} />
       <Route path='/reject' element={<Reject />} />
+      <Route path='/allie' element={<Allie />} />
       <Route path='/photos' element={<Photos />} />
     </Routes>
   </>
