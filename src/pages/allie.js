@@ -2,7 +2,10 @@
 export default function Allie() {
 
     return (
-        <p>where be</p>
+        <div>
+            <img src={require('../allie.jpg')} alt="" className="allie" />
+        </div>
+        
     )
 
     
