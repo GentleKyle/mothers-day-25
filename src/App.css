@@ -15,10 +15,10 @@
 }
 
 :root {
-  --bg: #e0e5f9;
+  --bg: #ebefff;
   --text-light: #ffffff;
   --text-dark: rgb(48, 48, 48);
-  --accent: rgb(216, 250, 215);
+  --accent: rgb(244, 255, 244);
 }
 
 body {
@@ -156,6 +156,72 @@ body {
   width: 100vw;
   height: 100vh;
   object-fit: contain;
+}
+
+
+
+.bg {
+  
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+.photo-contain {
+  max-width: 96vw;
+  max-height: 98vh;
+  
+  
+  box-shadow: 0px 1px 4px 2px rgba(0, 0, 0, 0.3);
+  margin: auto;
+  
+}
+.photos {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.caption {
+  margin: 10vw;
+  margin-top: 0;
+  padding: .5rem;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  background-color: #f5f8ff;
+  box-shadow: 0px 1px 4px 2px rgba(0, 0, 0, 0.05);
+  border: solid 1px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (orientation: landscape) {
+  .photos {
+    max-height: 100%;
+    width: auto;
+  }
+}
+
+.nav {
+  display: flex;
+  margin-right: 23vw;
+  margin-left: 23vw;
+  margin-bottom: 2vh;
+  justify-content: space-between;
+
+}
+.button {
+  font-size: 1.5rem;
+  border-radius: 10px;
+  padding-right: 7.5vw;
+  padding-left: 7.5vw;
+  box-shadow: 0px 1px 4px 2px rgba(0, 0, 0, 0.1);
+  border: solid 1px rgba(0, 0, 0, 0.3);
+  background-color: var(--accent);
+}
+.button:active {
+  background-color: rgba(116, 254, 116, 0.60);
+}
+.no-prev {
+  visibility: hidden;
+}
+.left {
+  transform: scale(-1, 1);
 }
 /* .card-front {
   background-color: beige;
