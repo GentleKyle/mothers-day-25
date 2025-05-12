@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/mothers-day-25/static/css/main.6f3afbc0.css",
-    "main.js": "/mothers-day-25/static/js/main.f19f8b11.js",
+    "main.css": "/mothers-day-25/static/css/main.32dcfef7.css",
+    "main.js": "/mothers-day-25/static/js/main.541be7fb.js",
     "static/js/453.c2f7664c.chunk.js": "/mothers-day-25/static/js/453.c2f7664c.chunk.js",
     "static/media/allie.jpg": "/mothers-day-25/static/media/allie.4f757db0d33c0bdf3890.jpg",
     "static/media/Pacifico-Regular.ttf": "/mothers-day-25/static/media/Pacifico-Regular.c0d735fc04154e03a691.ttf",
     "static/media/ShadowsIntoLight-Regular.ttf": "/mothers-day-25/static/media/ShadowsIntoLight-Regular.e8c09384ff0643bf385d.ttf",
     "index.html": "/mothers-day-25/index.html",
-    "main.6f3afbc0.css.map": "/mothers-day-25/static/css/main.6f3afbc0.css.map",
-    "main.f19f8b11.js.map": "/mothers-day-25/static/js/main.f19f8b11.js.map",
+    "main.32dcfef7.css.map": "/mothers-day-25/static/css/main.32dcfef7.css.map",
+    "main.541be7fb.js.map": "/mothers-day-25/static/js/main.541be7fb.js.map",
     "453.c2f7664c.chunk.js.map": "/mothers-day-25/static/js/453.c2f7664c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f3afbc0.css",
-    "static/js/main.f19f8b11.js"
+    "static/css/main.32dcfef7.css",
+    "static/js/main.541be7fb.js"
   ]
 }
